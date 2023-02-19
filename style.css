@@ -1,0 +1,326 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+header{
+    height: 64px;
+    margin: 0 24px;
+}
+.logo-container{
+    display: inline-block;
+    width: fit-content;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+}
+.logo img{
+    width: 50px;
+}
+.logo span{
+    font-size: 32px;
+}
+#span1{
+    font-weight: bold;
+}
+#span2{
+    color: grey;
+}
+.nav{
+    display: inline-block;
+    width: fit-content;
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 16px;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav ul li a {
+    text-decoration: none;
+}
+.learn-something-new-container{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+}
+.learn-something-new-container img{
+    width: 60%;
+    margin: 32px 24px;
+    display: inline-block;
+}
+.learn-something-new{
+    display: inline-block;
+    height: 843.922px;
+    margin: 32px 24px 32px 0;
+
+}
+.title-container{
+    height: 843.922px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.title h1{
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+.title h3{
+    font-size: 40px;
+}
+.title button{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(116, 114, 114);
+    color: white;
+    border: 0;
+    padding: 8px 0;
+}
+.info-container{
+    width: 100%;
+    display: flex;
+    
+}
+.info-left{
+    width: 60%;
+    margin: 32px 24px 0 24px;
+    flex-shrink: 1;
+}
+.info-left img{
+    width: 100%;
+}
+.info-left h1{
+    margin:32px 0 24px 0;
+}
+.info-left p{
+    margin: 0 0 32px 0;
+    flex-wrap: wrap;
+}
+.info-right{
+    width: 40%;
+}
+.info-div{
+    margin: 16px;
+    display: flex;
+    border: 1px solid grey;
+}
+.info-div img{
+    margin: 16px;
+    width: 35%;
+}
+.start-learning{
+    width: 100%;
+    background-color: lightgray;
+}
+.start-learning h1{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+.tiles-container{
+    margin: 0 56px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.tile{
+    margin: 0 16px 16px 16px;
+    width: 532px;
+    background-color: white;
+}
+.tile h1{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.tile h2{
+    margin: 8px 0;
+    font-weight: 400;
+}
+.tile p{
+    word-wrap: normal;
+}
+.tile div{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.thesis{
+    width: 100%;
+}
+.thesis h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 32px 0;
+}
+.thesis-container{
+    margin: 0 24px;
+    display: flex;
+}
+.thesis-container video{
+    width: 60%;
+}
+.exhibit-box{
+    margin-left: 24px;
+}
+.box{
+    display: flex;
+}
+.box img{
+    margin: 16px;
+}
+.box-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text{
+    width: 60%;
+    margin: 24px 24px 32px 24px;
+}
+footer{
+    padding: 16px 24px 32px 24px;
+    border-top: 1px solid lightgrey;
+}
+.mobile-link{
+    display: none;
+}
+.mobile-pic{
+    display: none;
+}
+.mobile-learn{
+    display: none;
+}
+@media only screen and (max-width: 800px){
+    .desktop-link{
+        display: none;
+    }
+    #span1 {
+        display: none;
+    }
+    #span2{
+        display: none;
+    }
+    .mobile-link{
+        display: flex;
+        width: 50px;
+
+    }
+    header{
+        height: 64px;
+        width: auto;
+    }
+    .logo-container{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        height: 64px;
+    }
+    ul{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        height: 64px;
+        margin: 0;
+    }
+    .nav ul li{
+        margin-left: 0;
+    }
+    .small{
+        margin: 0 35px 0 35px;
+        padding-top: 10px;
+    }
+    #logos{
+    }
+    .learn-something-new-container{
+        display: block;
+        margin: 0 0;
+        width: 100%;
+    }
+    .learn-something-new{
+        margin: 0;
+        height: 100%;
+    }
+    .learn-something-new-container img{
+        width: 100%;
+        margin: 0;
+    }
+    .title-container{
+        margin: 0 16px;
+        height: 100%;
+        width: 100%;
+    }
+    .title h1{
+        margin: 32px 0;
+        text-align: left;
+    }
+    .title h3{
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    .title button{
+        margin-bottom: 32px;
+    }
+    .info-left{
+        display: none;
+    }
+    .info-right{
+        width: 100%;
+    }
+    .info-div{
+        display: block;
+        border: 0px;
+        margin: 16px;
+    }
+    .desktop-pic{
+        display: none;
+    }
+    .mobile-pic{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .info-div img{
+        margin: 0;
+        width: 100%;
+    }
+    .start-learning{
+        background-color: white;
+        margin: 32px 0px;
+    }
+    .tiles-container{
+        display: none;
+    }
+    .mobile-learn{
+        display: block;
+        margin: 8px 16px;
+        background-color: lightgray;
+        padding: 16px 16px 24px 16px;
+        font-size: 30px;
+    }
+    .exhibit-box{
+        display: none;
+    }
+    .thesis-container video{
+        width: 100%;
+    }
+    .text{
+        display: none;
+    }
+    .thesis-container{
+        margin: 0px 16px 24px 16px;
+    }
+    footer{
+        padding: 16px;
+    }
+}
